@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    border-bottom: 1px solid rgb(189, 41, 41);
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    color: red;
+    margin-top: 4rem
+}
+
+
+.main-index{
+    display: flex;
+    align-items: center;
+    padding: 0rem 10rem;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+
+}
+
+
+@media screen and (min-width: 548px) and (max-width: 769px){
+    
+    .main-index{        
+        display: flex;
+        align-items: center;
+        padding: 0rem 10rem;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 4rem;
+        flex-direction: column-reverse;
+    }
+
+    .main-img{
+        display: flex;
+        margin: 0px auto;
+        min-width: 220px;
+        border-radius: 20px;
+        gap: 4rem;
+    }
+}
+    
+
+.main-info div{
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+
+.main-info h1{
+    margin-bottom: 1.3rem;
+    color: black;
+}
+
+.main-img{
+    display: flex;
+    margin: 0px auto;
+    width: 480px;
+    border-radius: 20px;
+    gap: 4rem;
+}
+
+
+p{
+    color: red;
+    text-align: left;
+    text-align: right;
+
+}
+
+footer{
+    text-align: center;
+}
+
+
+/* Historia */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    border-bottom: 1px solid rgb(189, 41, 41);
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    color: red;
+}
+
+.main-historia{
+    display: flex;
+    align-items: center;
+    padding: 0rem 10rem;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.main-info div{
+        margin-top: 1.5rem;
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+}
+
+.main-info h1{
+    margin-bottom: 1.3rem;
+    color: black;
+}
+
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 35%;
+    border-radius: 20px;
+    gap: 4rem;
+    
+}
+
+p{
+    color: red;
+    text-align: left;
+    text-align: right;
+
+}
+
+footer{
+    text-align: center;
+}
+
+/* Discografia */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.header{
+    border-bottom: 1px solid rgb(189, 41, 41);
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    color: red;
+}
+
+.main-discografia{
+    display: flex;
+    align-items: center;
+    padding: 0rem 10rem;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.main-info div{
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+
+.main-info h1{
+    margin-bottom: 1.3rem;
+    color: black;
+}
+
+.table{
+    color: red;
+}
+
+
+.table-tr{
+    color: black;
+}
+
+.main-img{
+    display: grid;
+    margin: 0px auto;
+    width: 35%;
+    border-radius: 20px;
+    gap: 4rem;
+    
+}
+
+
+p{
+    color: red;
+    text-align: left;
+    text-align: right;
+
+}
+
+footer{
+    text-align: center;
+}
+
+/* Premios */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    border-bottom: 1px solid rgb(189, 41, 41);
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+    
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    color: red;
+}
+
+
+.main-premios{
+    display: flex;
+    align-items: center;
+    padding: 0rem 10rem;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.main-info div{
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+
+.main-info h1{
+    margin-bottom: 1.3rem;
+    color: black;
+}
+
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 35%;
+    border-radius: 20px;
+    gap: 4rem;
+    
+}
+
+p{
+    display: grid;
+    color: red;
+    text-align: left;
+    text-align: right;
+
+}
+
+footer{
+    display: grid;
+    text-align: center;
+}
+
+/* Contacto */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header{
+    border-bottom: 1px solid rgb(189, 41, 41);
+
+}
+
+
+fieldset{
+    color: red;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+
+}    
+   
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color: red;
+    font-size: 20px;
+}
+
+footer{
+    color: red;
+}
+
+img{
+    display: flex;
+    margin: 0px auto;
+}
+
+footer{
+    text-align: center;
+    display: grid
+}
+
+p{
+    display: grid;
+    color: red;
+    text-align: left;
+}
