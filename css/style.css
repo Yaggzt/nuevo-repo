@@ -41,31 +41,24 @@ footer{
     justify-content: center;
     gap: 4rem;
     margin-top: 4rem;
-
 }
 
-
-@media screen and (min-width: 548px) and (max-width: 769px){
+@media screen and (max-width: 600px) and (min-width: 600px){
     
-    .main-index{        
-        display: flex;
+    .main-index{
         align-items: center;
         padding: 0rem 10rem;
-        justify-content: center;
-        gap: 4rem;
-        margin-top: 4rem;
         flex-direction: column-reverse;
     }
 
     .main-img{
-        display: flex;
         margin: 0px auto;
         min-width: 220px;
         border-radius: 20px;
-        gap: 4rem;
+        
     }
 }
-    
+       
 
 .main-info div{
     margin-top: 1.5rem;
@@ -263,7 +256,7 @@ footer{
     text-align: center;
 }
 
-/* Premioss */
+/* Premios */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body{
