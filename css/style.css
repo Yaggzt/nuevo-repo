@@ -12,6 +12,7 @@ h1{
     text-align: center;
     color: black;
     font-size: 40px;
+    margin: auto;
 }
 
 ul{
@@ -40,10 +41,11 @@ footer{
     justify-content: center;
     gap: 4rem;
     margin-top: 4rem;
+    flex-direction: row;
 }
 
-@media screen and (max-width: 600px) and (min-width: 600px){
-    
+@media only screen and (max-width: 980px) and (min-width: 200px) {
+   
     .main-index{
         align-items: center;
         padding: 0rem 10rem;
@@ -51,7 +53,8 @@ footer{
     }
 
     .main-img{
-        margin: 0px auto;
+        align-items: center;
+        margin: 0px;
         min-width: 220px;
         border-radius: 20px;
         
@@ -73,7 +76,7 @@ footer{
 
 .main-img{
     display: flex;
-    margin: 0px auto;
+    margin: 0px;
     width: 480px;
     border-radius: 20px;
     gap: 4rem;
@@ -235,8 +238,8 @@ footer{
 }
 
 .main-img{
-    display: grid;
-    margin: 0px auto;
+    display: flex;
+    margin: 0px;
     width: 35%;
     border-radius: 20px;
     gap: 4rem;
@@ -406,4 +409,8 @@ p{
 
 .nav-link {
     color: black;
+}
+
+.navbar-toggler{
+    margin: auto;
 }
