@@ -1,416 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
-body{
-    font-family: 'Libre Baskerville', serif;
-}
+body {
+  font-family: 'Libre Baskerville', serif; }
 
-header{
-    border-bottom: 1px solid rgb(189, 41, 41);
-}
+header {
+  border-bottom: 1px solid #bd2929; }
 
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-    margin: auto;
-}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin: auto; }
 
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center; }
 
-li{
-    color: red;
-    font-size: 20px;
-}
+li {
+  color: red;
+  font-size: 20px; }
 
-footer{
-    color: red;
-    margin-top: 4rem
-}
+footer {
+  color: red;
+  text-align: center;
+  margin-top: 4rem; }
 
-
-.main-index{
-    display: flex;
-    align-items: center;
-    padding: 0rem 10rem;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
-    flex-direction: row;
-}
+.main-index {
+  display: flex;
+  align-items: center;
+  padding: 0rem 10rem;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+  flex-direction: row; }
 
 @media only screen and (max-width: 980px) and (min-width: 200px) {
-   
-    .main-index{
-        align-items: center;
-        padding: 0rem 10rem;
-        flex-direction: column-reverse;
-    }
-
-    .main-img{
-        align-items: center;
-        margin: 0px;
-        min-width: 220px;
-        border-radius: 20px;
-        
-    }
-}
-       
-
-.main-info div{
-    margin-top: 1.5rem;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
-}
-
-.main-info h1{
-    margin-bottom: 1.3rem;
-    color: black;
-}
-
-.main-img{
-    display: flex;
-    margin: 0px;
-    width: 480px;
-    border-radius: 20px;
-    gap: 4rem;
-}
-
-
-p{
-    color: red;
-    text-align: left;
-    text-align: right;
-
-}
-
-footer{
-    text-align: center;
-}
-
-
-/* Historia */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
-body{
-    background-color: white;
-    font-family: 'Libre Baskerville', serif;
-}
-
-header{
-    border-bottom: 1px solid rgb(189, 41, 41);
-}
-
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-}
-
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-li{
-    color: red;
-    font-size: 20px;
-}
-
-footer{
-    color: red;
-}
-
-.main-historia{
-    display: flex;
+  .main-index {
     align-items: center;
     padding: 0rem 10rem;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
-}
+    flex-direction: column-reverse; }
 
-.main-info div{
-        margin-top: 1.5rem;
-        display: inline-block;
-        padding: 0.5rem 1.5rem;
-        border-radius: 20px;
-}
+  .main-img {
+    align-items: center;
+    margin: 0px;
+    min-width: 220px;
+    border-radius: 20px; } }
 
-.main-info h1{
-    margin-bottom: 1.3rem;
-    color: black;
-}
+.main-info div {
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px; }
 
+.main-info h1 {
+  margin-bottom: 1.3rem;
+  color: black; }
 
-img{
-    display: block;
-    margin: 0px auto;
-    width: 35%;
-    border-radius: 20px;
-    gap: 4rem;
-    
-}
+.main-img {
+  display: flex;
+  margin: 0px;
+  width: 480px;
+  border-radius: 20px;
+  gap: 4rem; }
 
-p{
-    color: red;
-    text-align: left;
-    text-align: right;
+p {
+  color: red;
+  text-align: left;
+  text-align: right; }
 
-}
+  /* Historia */
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif; }
 
-footer{
-    text-align: center;
-}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center; }
+
+li {
+  color: red;
+  font-size: 20px; }
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 35%;
+  border-radius: 20px;
+  gap: 4rem; }
+
+p {
+  color: red;
+  text-align: left;
+  text-align: right; }
 
 /* Discografia */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif; }
 
-body{
-    background-color: white;
-    font-family: 'Libre Baskerville', serif;
-}
+.header {
+  border-bottom: 1px solid #bd2929; }
 
-.header{
-    border-bottom: 1px solid rgb(189, 41, 41);
-}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center; }
 
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-}
+li {
+  color: red;
+  font-size: 20px; }
 
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
+.table {
+  color: red; }
 
-li{
-    color: red;
-    font-size: 20px;
-}
+.table-tr {
+  color: black; }
 
-footer{
-    color: red;
-}
-
-.main-discografia{
-    display: flex;
-    align-items: center;
-    padding: 0rem 10rem;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
-}
-
-.main-info div{
-    margin-top: 1.5rem;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
-}
-
-.main-info h1{
-    margin-bottom: 1.3rem;
-    color: black;
-}
-
-.table{
-    color: red;
-}
-
-
-.table-tr{
-    color: black;
-}
-
-.main-img{
-    display: flex;
-    margin: 0px;
-    width: 35%;
-    border-radius: 20px;
-    gap: 4rem;
-    
-}
-
-
-p{
-    color: red;
-    text-align: left;
-    text-align: right;
-
-}
-
-footer{
-    text-align: center;
-}
+p {
+  color: red;
+  text-align: left;
+  text-align: right; }
 
 /* Premios */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif; }
 
-body{
-    background-color: white;
-    font-family: 'Libre Baskerville', serif;
-}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center; }
 
-header{
-    border-bottom: 1px solid rgb(189, 41, 41);
-}
+li {
+  color: red;
+  font-size: 20px; }
 
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-}
-
-    
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-li{
-    color: red;
-    font-size: 20px;
-}
-
-footer{
-    color: red;
-}
-
-
-.main-premios{
-    display: flex;
-    align-items: center;
-    padding: 0rem 10rem;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
-}
-
-.main-info div{
-    margin-top: 1.5rem;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
-}
-
-.main-info h1{
-    margin-bottom: 1.3rem;
-    color: black;
-}
-
-
-img{
-    display: block;
-    margin: 0px auto;
-    width: 35%;
-    border-radius: 20px;
-    gap: 4rem;
-    
-}
-
-p{
-    display: grid;
-    color: red;
-    text-align: left;
-    text-align: right;
-
-}
-
-footer{
-    display: grid;
-    text-align: center;
-}
+p {
+  color: red;
+  text-align: left;
+  text-align: right; }
 
 /* Contacto */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif; }
 
-body{
-    background-color: white;
-    font-family: 'Libre Baskerville', serif;
-}
+fieldset {
+  color: red; }
 
-header{
-    border-bottom: 1px solid rgb(189, 41, 41);
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center; }
 
-}
+li {
+  color: red;
+  font-size: 20px; }
 
+img {
+  display: flex;
+  margin: 0px auto; }
 
-fieldset{
-    color: red;
-}
-
-
-h1{
-    text-align: center;
-    color: black;
-    font-size: 40px;
-
-}    
-   
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-li{
-    color: red;
-    font-size: 20px;
-}
-
-footer{
-    color: red;
-}
-
-img{
-    display: flex;
-    margin: 0px auto;
-}
-
-footer{
-    text-align: center;
-    display: grid
-}
-
-p{
-    display: grid;
-    color: red;
-    text-align: left;
-}
-
+p {
+  color: red;
+  text-align: left; }
 
 .container-fluid {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.5rem;
-    margin: 0; }
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  margin: 0; }
 
 .navbar-collapse {
-    flex-grow: inherit; }
+  flex-grow: inherit; }
 
 .nav-link {
-    color: black;
-}
+  color: black; }
 
-.navbar-toggler{
-    margin: auto;
-}
+.navbar-toggler {
+  margin: auto; }
