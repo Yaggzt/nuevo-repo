@@ -4,28 +4,21 @@ body {
   font-family: 'Libre Baskerville', serif; }
 
 header {
-  border-bottom: 1px solid #bd2929; }
-
-h1 {
-  text-align: center;
-  color: black;
-  font-size: 40px;
-  margin: auto; }
-
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center; }
-
-li {
-  color: red;
-  font-size: 20px; }
-
-footer {
-  color: red;
-  text-align: center;
-  margin-top: 4rem; }
+  border-bottom: 1px solid #bd2929; 
+  h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: auto; }
+    ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-evenly;
+      align-items: center; }
+      li {
+        color: red;
+        font-size: 20px; }    
+}
 
 .main-index {
   display: flex;
@@ -34,7 +27,23 @@ footer {
   justify-content: center;
   gap: 4rem;
   margin-top: 4rem;
-  flex-direction: row; }
+  flex-direction: row; 
+  div {
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px; }
+    h1 {
+      text-align: center;
+      margin-bottom: 1.3rem;
+      color: black; }
+      img {
+        display: flex;
+        margin: 0px;
+        width: 480px;
+        border-radius: 20px;
+        gap: 4rem; }
+}
 
 @media only screen and (max-width: 980px) and (min-width: 200px) {
   .main-index {
@@ -46,45 +55,10 @@ footer {
     align-items: center;
     margin: 0px;
     min-width: 220px;
-    border-radius: 20px; } }
-
-.main-info div {
-  margin-top: 1.5rem;
-  display: inline-block;
-  padding: 0.5rem 1.5rem;
-  border-radius: 20px; }
-
-.main-info h1 {
-  margin-bottom: 1.3rem;
-  color: black; }
-
-.main-img {
-  display: flex;
-  margin: 0px;
-  width: 480px;
-  border-radius: 20px;
-  gap: 4rem; }
-
-p {
-  color: red;
-  text-align: left;
-  text-align: right; }
+    border-radius: 20px; }  
+  }
 
   /* Historia */
-body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif; }
-
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center; }
-
-li {
-  color: red;
-  font-size: 20px; }
-
 img {
   display: block;
   margin: 0px auto;
@@ -92,77 +66,17 @@ img {
   border-radius: 20px;
   gap: 4rem; }
 
-p {
-  color: red;
-  text-align: left;
-  text-align: right; }
-
 /* Discografia */
-body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif; }
-
-.header {
-  border-bottom: 1px solid #bd2929; }
-
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center; }
-
-li {
-  color: red;
-  font-size: 20px; }
-
 .table {
-  color: red; }
-
-.table-tr {
-  color: black; }
-
-p {
-  color: red;
-  text-align: left;
-  text-align: right; }
-
-/* Premios */
-body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif; }
-
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center; }
-
-li {
-  color: red;
-  font-size: 20px; }
-
-p {
-  color: red;
-  text-align: left;
-  text-align: right; }
+  color: red; 
+  tr {
+    color: black; }
+}
 
 /* Contacto */
-body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif; }
 
 fieldset {
   color: red; }
-
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center; }
-
-li {
-  color: red;
-  font-size: 20px; }
 
 img {
   display: flex;
@@ -185,3 +99,10 @@ p {
 
 .navbar-toggler {
   margin: auto; }
+
+
+footer {
+  color: red;
+  text-align: center;
+  margin-top: 4rem; }
+    
