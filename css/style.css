@@ -18,7 +18,7 @@ header {
     color: red;
     font-size: 20px; }
 
-.main-index {
+main {
   display: flex;
   align-items: center;
   padding: 0rem 10rem;
@@ -26,34 +26,22 @@ header {
   gap: 4rem;
   margin-top: 4rem;
   flex-direction: row; }
-  .main-index div {
+  main div {
     margin-top: 1.5rem;
     display: inline-block;
     padding: 0.5rem 1.5rem;
     border-radius: 20px; }
-  .main-index h1 {
+  main h1 {
     text-align: center;
     margin-bottom: 1.3rem;
     color: black; }
-  .main-index img {
+  main img {
     display: flex;
     margin: 0px;
     width: 480px;
     border-radius: 20px;
     gap: 4rem; }
 
-@media only screen and (max-width: 980px) and (min-width: 200px) {
-  .main-index {
-    align-items: center;
-    padding: 0rem 10rem;
-    flex-direction: column-reverse; }
-  .main-img {
-    align-items: center;
-    margin: 0px;
-    min-width: 220px;
-    border-radius: 20px; } }
-
-/* Historia */
 img {
   display: block;
   margin: 0px auto;
@@ -61,13 +49,11 @@ img {
   border-radius: 20px;
   gap: 4rem; }
 
-/* Discografia */
 .table {
   color: red; }
   .table tr {
     color: black; }
 
-/* Contacto */
 fieldset {
   color: red; }
 
