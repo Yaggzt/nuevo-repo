@@ -68,7 +68,8 @@ p {
   font-family: 'Libre Baskerville', serif;
   flex-direction: column;
   font-size: 1.5rem;
-  margin: 0; }
+  margin: 0;
+  flex-direction: row; }
 
 .navbar-collapse {
   flex-grow: inherit; }
