@@ -16,7 +16,24 @@ fieldset {
     margin: 0; 
     flex-direction: row;
   }
-    
+   
+
+  @mixin botones ($bgColor, $textColor){
+    background-color: $bgColor;
+    font-size: large;
+    border-radius: 5px;
+    border: 100px;
+    color:  $textColor;
+  }
+
+  .boton1{
+    @include botones( rgb(255, 255, 255), rgb(11, 12, 11) )
+  }
+
+  .boton2{
+    @include botones( rgb(255, 255, 255), rgb(10, 10, 10) )
+  }
+
   
   .navbar-collapse {
     flex-grow: inherit; }
@@ -26,6 +43,7 @@ fieldset {
   
   .navbar-toggler {
     margin: auto; }
+    
   
   
   footer {

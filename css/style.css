@@ -78,6 +78,20 @@ p {
   margin: 0;
   flex-direction: row; }
 
+.boton1 {
+  background-color: white;
+  font-size: large;
+  border-radius: 5px;
+  border: 100px;
+  color: #0b0c0b; }
+
+.boton2 {
+  background-color: white;
+  font-size: large;
+  border-radius: 5px;
+  border: 100px;
+  color: #0a0a0a; }
+
 .navbar-collapse {
   flex-grow: inherit; }
 
