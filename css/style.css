@@ -20,7 +20,7 @@ body {
 
 .parrafoanimated, .parrafoani2 {
   font-size: medium;
-  color: red; }
+  color: black; }
 
 .parrafoani2 {
   text-align: left; }
@@ -61,11 +61,15 @@ img {
     color: black; }
 
 fieldset {
-  color: red; }
+  color: black; }
 
 img {
   display: flex;
   margin: 0px auto; }
+
+p {
+  color: black;
+  text-align: left; }
 
 .container-fluid {
   font-family: 'Libre Baskerville', serif;

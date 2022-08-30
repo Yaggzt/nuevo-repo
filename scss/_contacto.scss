@@ -1,9 +1,13 @@
 fieldset {
-    color: red; }
+    color: black; }
   
   img {
     display: flex;
     margin: 0px auto; }
+  
+  p {
+    color: black;
+    text-align: left; }
   
   .container-fluid {
     font-family: 'Libre Baskerville', serif;
@@ -13,7 +17,7 @@ fieldset {
     flex-direction: row;
   }
     
-
+  
   .navbar-collapse {
     flex-grow: inherit; }
   
