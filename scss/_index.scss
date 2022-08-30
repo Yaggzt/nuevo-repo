@@ -3,14 +3,15 @@
 body {
     font-family: 'Libre Baskerville', serif; }
   
-  header {
-    border-bottom: 1px solid #bd2929; 
-    h1 {
+  .bg-light {
+    border-bottom: 1px solid #bd2929;
+
+    .animate__backInDown{
       text-align: center;
       color: black;
       font-size: 40px;
       margin: auto; }
-      ul {
+      ul{
         display: flex;
         list-style-type: none;
         justify-content: space-evenly;
@@ -19,6 +20,15 @@ body {
           color: red;
           font-size: 20px; }    
   }
+
+  .parrafoanimated{
+    font-size: medium;
+    color: red; }
+
+  .parrafoani2{
+    @extend .parrafoanimated;
+    text-align: left;
+  }  
   
   main{
     display: flex;

@@ -5,10 +5,6 @@ fieldset {
     display: flex;
     margin: 0px auto; }
   
-  p {
-    color: red;
-    text-align: left; }
-  
   .container-fluid {
     font-family: 'Libre Baskerville', serif;
     flex-direction: column;
@@ -17,7 +13,7 @@ fieldset {
     flex-direction: row;
   }
     
-  
+
   .navbar-collapse {
     flex-grow: inherit; }
   

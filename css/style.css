@@ -2,21 +2,28 @@
 body {
   font-family: 'Libre Baskerville', serif; }
 
-header {
+.bg-light {
   border-bottom: 1px solid #bd2929; }
-  header h1 {
+  .bg-light .animate__backInDown {
     text-align: center;
     color: black;
     font-size: 40px;
     margin: auto; }
-  header ul {
+  .bg-light ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
     align-items: center; }
-  header li {
+  .bg-light li {
     color: red;
     font-size: 20px; }
+
+.parrafoanimated, .parrafoani2 {
+  font-size: medium;
+  color: red; }
+
+.parrafoani2 {
+  text-align: left; }
 
 main {
   display: flex;
@@ -59,10 +66,6 @@ fieldset {
 img {
   display: flex;
   margin: 0px auto; }
-
-p {
-  color: red;
-  text-align: left; }
 
 .container-fluid {
   font-family: 'Libre Baskerville', serif;
