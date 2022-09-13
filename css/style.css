@@ -111,6 +111,8 @@ footer {
     align-items: center;
     padding: 0rem 10rem;
     flex-direction: column-reverse; }
+  .container-fluid {
+    flex-direction: column; }
   img {
     align-items: center;
     margin: 0px;
